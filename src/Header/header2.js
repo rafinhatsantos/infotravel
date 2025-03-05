@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import './Header.css';
+import Link from 'next/link';
 
 export default function Header2() {
   return (
@@ -15,8 +16,11 @@ export default function Header2() {
  
       <header className="parent2">
         <div className="parent2">
-          <div className="titulo2">infotravel</div>
-          <div className="home">home</div>
+          
+        
+        <Link href="/">  
+         <div className="titulo2" >infotravel </div>     </Link>     
+         <Link href="/">  <div className="home">home</div> </Link> 
           <div className="login2">iniciar sessão</div>
         </div>
       </header>

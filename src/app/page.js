@@ -1,7 +1,7 @@
 import Header from "@/Header/header";
 import Slogan from "@/Slogan";
 import Busca from "@/Busca";
-import Footer from "@/Footer/footer";  
+import Footer2 from "@/Footer/footer2";
 export default function Home() {
     return (
         <div>
@@ -9,7 +9,7 @@ export default function Home() {
             <Header />
             <Slogan />
             <Busca />
-            <Footer /> 
+            <Footer2 /> 
         </div> 
     );
 }

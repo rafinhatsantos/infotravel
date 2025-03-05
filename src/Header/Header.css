@@ -39,31 +39,31 @@
   }
 
 .titulo2 {
-    flex: 1; 
+    flex: 1;
     color: #00264D;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 600;
     margin-left: 59px;
     margin-top: 17px;
-  }
-
+}
 
   .home, .login2 {
     color: #698096;
     font-size: 20px;
     margin-left: 20px;
-    white-space: nowrap; 
+    white-space: nowrap;
     margin-top: 17px;
-  }
+}
 
 
 .parent2 {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    background-color: white;
-    padding: 5px 10px; 
-    width: 100%; 
-    margin-bottom: 30px;
-    height: 60px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 60px;
+}
+
