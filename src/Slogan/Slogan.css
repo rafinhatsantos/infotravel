@@ -1,0 +1,21 @@
+.slogan {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #00264D;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.2; 
+  word-spacing: -4px;
+  margin-top: 60px; 
+}
+
+.destaque {
+  font-size: 50px;
+  line-height: 1.2; 
+  font-weight: bold;
+  text-align: center;
+  color: #0080FF;
+  margin: 0 auto;
+  padding: 10px;
+}

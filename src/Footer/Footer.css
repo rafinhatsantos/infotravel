@@ -1,0 +1,16 @@
+.footer {
+    position: flex ;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0; 
+    text-align: center; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.direitos {
+    color: black;
+    font-size: 12px; 
+}
+        

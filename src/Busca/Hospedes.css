@@ -1,0 +1,107 @@
+.hospedes-submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .controle button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .controle button:hover {
+    background-color: #0056b3;
+  }
+  
+  .total {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .concluir-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .concluir-btn:hover {
+    background-color: #218838;
+  }.hospedes-submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .controle button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .controle button:hover {
+    background-color: #0056b3;
+  }
+  
+  .total {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .concluir-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .concluir-btn:hover {
+    background-color: #218838;
+  }
+
+  

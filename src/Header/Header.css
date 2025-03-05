@@ -1,0 +1,69 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 100%; 
+    background-color: #e3ebf3; 
+    padding: 10px 20px; 
+  }
+  
+ 
+  .titulo {
+    grid-column: 1 / span 2;
+    color: #00264D;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 59px;
+    align-self: center;
+  }
+  
+  
+  .login {
+    grid-column: 5;
+    color: #698096;
+    font-size: 14px;
+    justify-self: end;
+    margin-right: 20px; 
+    align-self: center;
+  }
+  
+  
+  .login-image {
+    grid-column: 4; 
+    grid-row: 1;
+    width: 15px;
+    height: 15px;
+    justify-self: end;
+    margin-right: 10px;
+    align-self: center;
+  }
+
+.titulo2 {
+    flex: 1; 
+    color: #00264D;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 59px;
+    margin-top: 17px;
+  }
+
+
+  .home, .login2 {
+    color: #698096;
+    font-size: 20px;
+    margin-left: 20px;
+    white-space: nowrap; 
+    margin-top: 17px;
+  }
+
+
+.parent2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    padding: 5px 10px; 
+    width: 100%; 
+    margin-bottom: 30px;
+    height: 60px;
+  }

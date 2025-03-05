@@ -1,0 +1,148 @@
+
+.busca {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; 
+  align-items: center; 
+  justify-items: start;
+  color: black; 
+  max-width:85%;
+  background-color: #ffffff ;
+  border-radius: 11px;
+  padding: 12px 64px;
+  box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+  margin: auto;  
+}
+
+.quarto {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; 
+  align-items: center; 
+  justify-items: start;
+  color: black; 
+  max-width:85%;
+  background-color: #698096 ;
+  border-radius: 11px;
+  padding: 12px 64px;
+  box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+  margin: auto;  
+
+}
+
+.icon{
+
+    width: 15px; 
+    height: 15px; 
+}
+    
+.destino {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; /* Espaçamento entre os elementos internos */
+  }   
+.entrada {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }   
+.saida {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; 
+  }   
+.hospedes {
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }   
+
+
+  .filho-destino {
+   display: flex;
+   gap: 4px;
+   justify-content: start;
+   width: 100%;
+  }
+
+  .p-hospedagem{
+    margin-bottom: 6px;
+  }
+
+
+  .busca {
+    position: relative;
+  }
+  
+  .destino {
+    cursor: pointer;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .suggestion-name {
+    font-weight: bold;
+  }
+  
+  .suggestion-region {
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  .busca-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .busca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+.hospedes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hospedes {
+  position: relative;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
